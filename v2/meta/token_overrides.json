@@ -1,0 +1,10 @@
+{
+  "_description": "Manual token overrides — used only when an agent reports an issue or requests a custom token. Format: { market: { lowercased_full_name: token } }. Rebuild script checks this map BEFORE falling back to the md5 hash, so the override wins. Keep tokens 8-char hex to match the rest of the system; 10-12 char is fine if you need a vanity token.",
+  "_example": {
+    "phoenix": {
+      "john example": "1234abcd"
+    }
+  },
+  "phoenix": {},
+  "tucson": {}
+}
