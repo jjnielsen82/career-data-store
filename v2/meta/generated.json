@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-04-21T02:15:32.143192Z",
+  "source": "phoenix_listdate_historical.csv + tucson_listdate_historical.csv"
+}
